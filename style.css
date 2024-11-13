@@ -245,29 +245,9 @@
     }
   }
 
-  @keyframes glow {
-    0%{
-      filter: brightness(0.7);
-    }
-    100%{
-      filter: brightness(1);
-    }
-  }
-
-  .carousel-inner{
-    filter: brightness(0.7);
-    animation: alternate glow 1s ease-in-out infinite;
-  }
-
-  .carousel-inner:hover{
-    filter: brightness(1);
-    animation-play-state: paused;
-  }
-
   
-  .carousel-inner:active{
-    filter: brightness(1);
-  }
+
+
 
 
 
