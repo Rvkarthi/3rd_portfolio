@@ -97,7 +97,7 @@
 
 
     <marquee   class="text-white" direction="left"><div class="scrolling-text mt-3">
-        <p id="mar" style="letter-spacing: 5px; padding: 0px 10px;" >Welcome to Karthikrishna's Official Portfolio  |  Web Developer  |  Content Creator  |  Photographer</p>
+        <p id="mar" style="display: inline; letter-spacing: 5px; padding: 10px 15px; border-radius: 20px;" >Welcome to Karthikrishna's Official Portfolio  |  Web Developer  |  Content Creator  |  Photographer</p>
     </div></marquee>
     
     
@@ -330,15 +330,14 @@
         if(c)
         {
           console.log("even");
-            document.getElementById("imbody").style.setProperty('--color', '#141313');
             document.getElementById("imbody").style.backgroundColor = 'white';
             mar.style.color = 'white';
-            mar.style.backgroundColor = '#141313';
+            mar.style.backgroundColor = '#00000076';
+
             c=0;
         }
         else{
           console.log("odd");
-            document.getElementById("imbody").style.setProperty('--color', 'rgba(114, 114, 114, 0.3)')
             document.getElementById("imbody").style.backgroundColor = '#141313'
             document.getElementById("mar").style.color = 'white';
             c=1;
